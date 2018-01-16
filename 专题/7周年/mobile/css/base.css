@@ -1,0 +1,59 @@
+﻿@charset="utf-8";
+*{margin:0;padding:0;}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,li,ul,fieldset,form,label,legend,table,caption,tbody,thead,tr,th,td {border:0 none;font-size: inherit;color:inherit;margin: 0;padding:0;vertical-align: baseline;}
+body{font-family: "Microsoft Yahei";font-size: 100%;}
+fieldset,img{border:0;}
+img,span{vertical-align:top;}
+table{border-collapse:collapse;border-spacing:0;}
+ul,li,ol{list-style: none;}
+a {outline: 0;text-decoration: none;}
+article,aside,footer,header,hgroup,nav,section{display:block;}
+.clear,.clearfix{ zoom:1; }
+.cb{clear:both;}
+.clear:after,.clearfix:after{content:' ';display:block;clear:both;height:0;visibility:hidden; }
+.pr {position: relative;}
+.pa {position: absolute;}
+.over{overflow:hidden;}
+.fr{float:right;}
+.fl{float:left;}
+.relative {position: relative;}
+.absolute {position: absolute;}
+#mask {width: 100%; height: 100%;position: fixed;top: 0px;left: 0px; background: #fff;z-index: 9999;-moz-transition: all 0.2s linear 0s;-webkit-transition: all 0.2s linear 0s;transition: all 0.2s linear 0s;}
+#mask img {display: block; width: 3.28rem; height: 1.60rem;margin: 35% auto ;}
+/*banner start*/
+.warp {min-width: 320px;max-width: 640px;width: 100%; margin: 0 auto;overflow: hidden;}
+.warp img {width: 100%;}
+.banner {width: 100%;height: 3rem;}
+.banner .bannerBtn {width: 100%; height: 0.1rem;bottom: 0.18rem;left: 0;text-align: center;line-height: 0.1rem;}
+.banner .bannerBtn span {display: inline-block;width: 0.08rem;height: 0.08rem;margin-right: 0.12rem; background: #fff;border-radius: 50%;vertical-align: top;}
+.banner .bannerBtn span:last-child {margin-right: 0;}
+.banner .bannerBtn .on {background: #c0025a;}
+/*end banner*/
+/*footer start*/
+.newfooter {width: 100%;min-width: 320px;max-width: 640px;margin: 0 auto;/*height: 4.62rem;*/text-align: center;}
+.newfooter img {width: 5.9rem;height: 0.96rem;margin: 3% auto;}
+.newfooter .newaddress {width: 100%;height: 2.3rem;background: url(../images/bg.png) no-repeat center center; background-size:100%;}
+.newfooter .newaddress .map {width: 2.61rem;height: 1.85rem;left: 8%;top: 15%;background: url(../images/map.png) no-repeat center center;background-size:100%; }
+.newfooter .newaddress .lmtime {width: 2.27rem;height: 1.07rem;right: 10%;top:20%;background: url(../images/time.png) no-repeat center center;background-size:100%; }
+.newfooter .newaddress .footBtn {width: 2.61rem;height: 0.31rem;right: 5%;bottom: 10%;}
+.newfooter .newaddress .footBtn a {width: 1.16rem;height: 0.31rem;display: inherit;}
+.newfooter .newaddress .footBtn a:first-child {background: url(../images/btn1.png) no-repeat center center;background-size:100%;margin-right: 2%;}
+.newfooter .newaddress .footBtn a:last-child {background: url(../images/btn2.png) no-repeat center center;background-size:100%;}
+/*专家样式*/
+.expertzx {display: inherit;width: 97%;font-size: 0.46rem;background: #937344;height: 1.21rem;line-height: 1.21rem;border-radius: 10px;color: #fff;margin: 0.10rem auto;text-align: center;}
+.expertzx a {color: #fff;}
+.expertSlide {position: relative;}
+.expertSlide .expertFocus {position: absolute;right: 7%;bottom: 4%;width: 100%;height: 0.13rem;z-index: 10;text-align: right;}
+.expertSlide .expertFocus span {width: 0.13rem;height: 0.13rem;background-color: #fff;-moz-border-radius: 100%;-webkit-border-radius: 100%;border-radius: 100%;margin: 0 1%;display: inline-block;}
+.expertSlide .expertFocus .experton {background: #ee0324 !important;}
+
+.topNav {width: 100%;height: 0.5rem;background: #eee;}
+.topNav ul {width: 4.2rem;height: 0.5rem; margin: 0 auto; display: flex; display: -webkit-flex;}
+.topNav ul li {width: 0.65rem;height: 0.50rem; flex: 1;-webkit-flex: 1;font-size: 0.16rem;color: #333;line-height: 0.5rem;text-align: center;}
+.topNav ul .navOn {height: 0.48rem;border-bottom: 0.02rem solid #c0025a;}
+/*topnav strat*/
+.lm_menu {width: 100%;height: 0.4rem;margin: 0 auto;background: #c0025a;}
+.lm_menu ul {width: 4rem; height: 0.4rem; display: flex;display: -webkit-flex;margin: 0 auto;}
+.lm_menu ul li {flex: 1;-webkit-flex: 1;line-height: 0.4rem;text-align: center;}
+.lm_menu ul li a {font-size: 0.16rem;color: #fff;display: inherit;}
+/*end topnav*/

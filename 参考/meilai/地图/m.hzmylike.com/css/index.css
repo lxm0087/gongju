@@ -1,0 +1,85 @@
+﻿@charset "UTF-8";
+.over{overflow:hidden;}
+.fr{float:right;}
+.fl{float:left;}
+img{height:auto;}
+.index_content {margin: 0 auto; height: auto; max-width:640px;min-width:320px;width: 100%;overflow: hidden;}
+.index_content img {width:100%;}
+/* banner 轮播切换 star */
+#banner{position: relative;}
+#banner .hd{position: absolute;width: 100%;text-align: center;bottom: 2%;left: 0;z-index: 10;}
+#banner .hd li{width: 0.2rem;height: 0.2rem;border:0.01rem solid #fff;border-radius: 50%;display: inline-block;margin:0 0.04rem;}
+#banner .hd li:last-child {margin-right: 0;}
+#banner .hd .on{background: #9e5fd4;border-color:#9e5fd4; }
+
+.plane {display: block;margin:0 auto;width: 6.4rem;height: 2.18rem;}
+/*项目分类*/
+.project_hot{overflow: hidden;padding:6% 0 4%;}
+.project_hot a{display: block;width: 20%;float: left;-webkit-transition: -webkit-transform 1s ease-out;-moz-transition: -moz-transform 1s ease-out;-o-transition: -o-transform 1s ease-out;-ms-transition: -ms-transform 1s ease-out;margin: 0 2.5% 2.5%;}
+.project_hot a.on{ -webkit-transform: rotateY(360deg);-moz-transform: rotateY(360deg);-o-transform: rotateY(360deg);-ms-transform: rotateY(360deg);transform: rotateY(360deg);}
+/*真人案例*/
+#caseer dl dd {background: url(../images/csbg.png) no-repeat;}
+#caseer dl dd h3{font-size: 0.24rem;color:#fff;}
+#caseer dl dd p{font-size: 0.24rem;color:#fff;text-align: center;}
+#caseer dl dd strong{font-size: 0.2rem;color:#f5873d;font-weight: normal;display: block;}
+#caseer dl dd h3 span{display: inline-block;width: 22%;position: relative;top: 0.04rem;}
+.caseer .title {width: 6.4rem;height: 1.02rem;background: url(../images/alltitle.png) no-repeat center center;background-size:100%;margin:1% auto;}
+.caseer dl dt img {width: 2.12rem;height: 3.84rem;}
+/*美丽日记*/
+/*底部0*/
+.reality {position: relative;margin-top: 4%;padding: 0.5rem 0 0;}
+.reality h3{width: 1.65rem;height: 0.38rem; background:url(../images/mlrj.png) no-repeat center center;background-size:100%;position: absolute;left: 3%;top: 0;}
+#reality .reality_nav{width: 60%;overflow: hidden;position: absolute;left: 40%;top: 0;height: 0.51rem;line-height: 0.51rem;}
+#reality .reality_nav ul li{font-size: 0.22rem;color:#000;text-align: center;}
+#reality .reality_nav ul li.on{border-bottom:2px solid #d5109d !important;}
+#reality .reality_content{border-top: 0.01rem solid #999}
+.case_box ul li {text-align: center;}
+/*修改头像居左位置*/
+.case_box ul li dl{overflow: hidden;width: 96%;margin:0 auto;}
+.case_box ul li dl dt{width: 0.75rem;height: 0.75rem; float: left;margin-top:2%;margin-right:8%;}
+.case_box ul li dl dd{width: 70%;float: left;text-align: left;margin-top: 2%;}
+.case_box ul li dl dd h4{font-size: 0.28rem;color:#b37ecd;text-align: left;font-weight: normal;line-height: 1.8;}
+.case_box ul li dl dd p{font-size: 0.24rem;color:#9e5fd4;background:url(../images/jt.png) no-repeat left center;background-size: 0.21rem;padding-left: 0.3rem;}
+/*修改真人的样式 宽度 底部和上边距*/
+.case_box ul li p.p1{font-size: 0.22rem;color:#666;width: 6.25rem;margin:0.12rem auto 0.14rem auto;text-align: left;}
+
+.case_box ul li>img {width: 6.21rem;height: 2.66rem;}
+.case_box>.swiper-case {margin: 0.2rem auto;text-align: center;}
+.swiper-case span {width: 0.2rem;height: 0.2rem;background: #5b5a5b;}
+.swiper-case .swiper-pagination-bullet-active{background: #943ebe !important;}
+#reality .swiper-slide{height:16px !important;height:auto !important;}
+/*顶部值修改*/
+.reality a.btn{display: block;background: #943ebe;font-size: 0.24rem;color:#fff;margin:0.3rem auto;width: 4rem;height: 0.6rem; border-radius: 0.5rem;text-align: center;line-height: 0.6rem;position: relative;}
+.reality a.btn span {position: absolute;right: 18%;top: 30%; width: 0.25rem;height: 0.25rem;background: url(../images/btn.png) no-repeat center center;background-size:100%;  display:block;}
+.expertd {width: 6.4rem;height: 4.58rem;margin:0 auto;}
+/*特邀专家*/
+.ty_doctor .title {width: 5.8rem;height: 0.4rem;float: right;margin-bottom: 0.2rem;border-bottom: 0.01rem solid #e6e6e6;margin-top: 0.2rem;}
+.ty_doctor .title h1 {text-align: left;line-height: 0.4rem;font-size:0.24rem;color: #646464;position: relative;}
+.ty_doctor .title h1:before {content: '';position: absolute;left: -7%;top:10%;width: 0.37rem;height: 0.31rem;background:url(../images/exper.png) no-repeat center center;background-size:100%;}
+.ty_doctor .title h1 a {float: right;font-size: 0.16rem;margin-right:10%;position: relative;}
+.ty_doctor .title h1 a:after {content: "";position: absolute;right: -60%;top: 30%;width: 0.14rem;height: 0.14rem;background: url(../images/emoer.png) no-repeat center center;background-size:100%;}
+#ty_doctor{overflow: hidden;}
+#ty_doctor {width: 100%;}
+#ty_doctor dl{padding:0 0.15rem;}
+#ty_doctor dl a dt {margin-bottom: 0.3rem;}
+#ty_doctor dl a dt img {width: 1.61rem;height: 1.61rem;}
+#ty_doctor dl dd h3{font-size: 0.25rem;color:#646464;}
+#ty_doctor dl dd p{font-size: 0.16rem;color:#646464;text-align: center;}
+#ty_doctor dl dd strong{font-size: 0.16rem;color:#e95a04;font-weight: normal;display: block;}
+#ty_doctor dl dd h3 span{display: inline-block;width: 22%;position: relative;top: 0.04rem;}
+#ty_doctor dl dd .elink {display: block;width: 1.27rem;height: 0.27rem;margin:0.2rem auto; background: url(../images/zxyy.png) no-repeat center center;background-size:100%;}
+/*友情链接*/
+.introduce .introduce_nav{overflow: hidden;margin:margin-top:3%;margin-right:3%;margin-bottom:3%;margin-left:6%;}
+    
+    
+   
+.introduce .introduce_nav li{width: 24%;float: left;margin-right: 1.3333%;background: #b775d8;font-size: 0.24rem;color:#fff;padding:2% 0;text-align: center;}
+.introduce .introduce_nav li:last-child{margin-right: 0;}
+.introduce .introduce_nav li.on{background: #943ebe;}
+.introduce .introduce_content{margin:0 3%;}
+.introduce_content img {width: 100%;}
+.introduce_content .swiper-container .swiper-slide {position: relative;margin-right: 2%;}
+.introduce_content .swiper-container .swiper-slide span{display: block;width: 100%;height: 0.6rem;background: #000;opacity: 0.6;filter:alpha(opacity=60);position: absolute;left: 0;bottom: 0;}
+.introduce_content .swiper-container .swiper-slide p {width: 100%;height: 0.6rem;color:#fff;position: absolute;left: 0;bottom: 0;text-align: center;font-size: 0.16rem;padding: 0 10%;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-o-box-sizing: border-box;display: table;}
+.introduce_content .swiper-container .swiper-slide p strong {font-weight: normal;display: table-cell;vertical-align:middle;}
+.introduce_content  .swiper-container.cen .swiper-slide p {line-height: 0.4rem;}

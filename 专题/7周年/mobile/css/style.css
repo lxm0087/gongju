@@ -1,0 +1,67 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*»ªÃÀÆ·ÅÆ*/
+.pinpaiBanner,.pinpaiBanner .bannerSlide {height:322px;border-bottom:1px solid #c0025a}
+.pinpaiBanner .bannerSlide li img {-moz-transform:none;-ms-transform:none;-o-transform:none;-webkit-transform:none;transform:none;}
+
+.sideNav {position:absolute;top:53px;width:400px; background-color:#c0025a;z-index:20 ;}
+.sideNav:after {content:'';position:absolute;bottom:-6px;left:0;z-index:-2;width:400px;height:22px; }
+.sideNav .innerWrapper {width:400px;height:100%; background-color:#FFF;}
+.sideNav .logo {width:146px;height:60px;margin: 0 auto; background-color:#fff;}
+.sideNav .logo i {display:block;width:155px;height:60px;background:url(../images/icons.png) no-repeat 10px -9px;}
+.sideNav ul {margin-top:14px;}
+.sideNav ul li {width:100%;height:60px;line-height:60px;border-bottom:1px solid #e1e1e1;text-align: center;}
+.sideNav ul li:last-child {border-bottom:none;}
+.sideNav ul li a {display:block;position:relative;padding-left:50px;width:100%;font-size:24px;color:#666;text-decoration:none;-moz-transition:all 0.3s linear 0s;-webkit-transition:all 0.3s linear 0s;transition:all 0.3s linear 0s;}
+.sideNav ul li a:before {position:absolute;content:'';left:130px;top:15px;width:28px;height:28px; background:url(../images/icons.png) no-repeat -10px -73px;}
+.sideNav ul li a:hover,.sideNav ul li a.active { background-color:#c0025a;color:#fff;text-decoration:none;}
+
+.pinpaiContent .contentRight {width:750px;padding-top:35px;margin-top: 45px;}
+.seoNavs {left:0;top:0px;width:100%;line-height:32px;color:#000;font-size:14px;border-bottom:1px solid #b7b7b7;}
+.seoNavs a {color:#000;text-decoration:none;} 
+.pinpaiWrapper {width:100%;padding-top:19px;}
+.pinpaiWrapper .content2 {width:100%;height:1190px;text-align: center;}
+.pinpaiWrapper .content2 .aside {width:780px;}
+.pinpaiWrapper .content2 .aside ul {width:100%;float: left;}
+.pinpaiWrapper .content2 .aside ul li {width: 340px;height: 275px;float: left;margin-right:30px;margin-bottom: 10px;border: 1px solid #ccc;padding: 2px;}
+.pinpaiWrapper .content2 .aside ul li:hover {border: 1px solid #c0025a;color: #c0025a}
+.pinpaiWrapper .content2 .aside ul li:hover a{color: #c0025a}
+.pinpaiWrapper .content2 .aside ul li img{float: left !important;margin-bottom: 15px;}
+.pinpaiWrapper .content2 .aside ul li h1 {width: 340px;}
+.pinpaiWrapper .content2 .aside ul li h1 a{font-family:"微软雅黑";font-size: 17px;color: #333;font-weight: bolder;}
+.pinpaiWrapper .content2 .aside ul li p {width: 334px;height: 18px;overflow: hidden;}
+.pinpaiWrapper .content2 .aside ul li p a{font-family:"微软雅黑";font-size: 14px;color: #666;}
+.pinpaiWrapper .content4{width: 100%;height: 220px;float: left; }
+.pinpaiWrapper .content4 ul{width: 750px;float: left; }
+.pinpaiWrapper .content4 ul li{width: 200px;height: 200px;float: left;margin:25px;}
+.pinpaiWrapper .content4 p {font-size:14px;text-align:center; text-transform:uppercase;cursor: pointer; }
+.pinpaiWrapper .content4 ul li a{display: inline-block;width: 75px;height: 115px;margin-left: 62.5px;}
+.qiujing { background:url(../images/icons.png) no-repeat -236px -19px;}
+.qiujing:hover { background-position: -236px -145px;}
+.chengxin { background:url(../images/icons.png) no-repeat -506px -19px;}
+.chengxin:hover { background-position: -506px -145px;}
+.reqing { background:url(../images/icons.png) no-repeat -765px -19px;}
+.reqing:hover { background-position: -765px -145px;}
+.on{background: #c0025a;}
+.on a{color: #fff !important;}
+.listpage{ 
+width: 668px; 
+} 
+.listpage b{ 
+padding:0 5px 0; 
+margin-top:30px; 
+color:#d04e00; 
+display:inline-table; 
+border:1px solid #ccc; 
+} 
+.listpage a{ 
+padding:0 5px 0; 
+color:#1F3A87; 
+display:inline-table; 
+border:1px solid #ccc; 
+} 
+.listpage a:hover{ 
+color:#fff; 
+background:#1f3a87; 
+border:1px solid #1f3a87; 
+} 

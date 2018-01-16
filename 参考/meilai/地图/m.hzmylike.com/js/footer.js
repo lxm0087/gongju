@@ -1,0 +1,24 @@
+// document.write("<a href='javascript:;' class='Top'>Top</a>");
+// document.write("<section class='fot_nav'>");
+// document.write("<a href=''><img src='images/brand1.png' alt=''></a>");
+// document.write("<a href=''><img src='images/brand2.png' alt=''></a>");
+// document.write("<a href=''><img src='images/brand3.png' alt=''></a>");
+// document.write("<a href=''><img src='images/brand4.png' alt=''></a>");
+// document.write("</section>");
+
+// document.write("<footer class='newFoot'>");
+// document.write("<div class='FooterPhone'>");
+// document.write("<a href=''></a>");
+// document.write("</div>");
+// document.write("<div class='FootAddress'>");
+// document.write("<div class='box'>");
+// document.write("<a href='' class='fl'><h3>查看地图</h3></a>");
+// document.write("<a href='' class='fr'><h3>关于莱美</h3></a>");
+// document.write("</div>");
+// document.write("</div>");
+// document.write("<div class='copyright'>");
+// document.write("<div class='fg'></div>");
+// document.write("<p>杭州美莱医疗美容医院</p>");
+// document.write("<p>（浙）（杭）医广【2017】第01-26-014号</p>");
+// document.write("</div>");
+// document.write("</footer>");

@@ -1,0 +1,103 @@
+@charset"GB2312";
+/* CSS Document  QQ:1917843637  tangjiusheng.com  2017.09.16开始*/
+*{margin:0;padding:0;} article img{border:none;vertical-align:bottom;}
+a{color:#555;cursor:pointer;}
+a:link,a:visited{text-decoration:none} a:hover{outline:none;}
+ul li{list-style-type:none;}
+body{font-size:12px;font-family:"Microsoft YaHei","SimSun";}
+.clearfix:after{content:" ";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*+height:1%;}
+/*公用样式*/
+.tc,article section{text-align:center;}  .ma{margin:0 auto;}  .w{width:1200px;margin:0 auto;}
+.fl,article li{float:left;}  .fr{float:right;}  .db{display:block;}
+.oh{overflow:hidden;}   .pr{position:relative;}   .pa{position:absolute;}
+.mr{margin-right:0!important;}   article{background:#cd0100;} .bg{background:#b40201;}
+article .title{padding-top:70px;}  article .title .pa{top:-67px;left:450px;}
+
+
+/*----------------------------*/
+/*banner*/
+#banner{background:url(../images/banner.jpg) no-repeat center;height:754px;}
+/*美丽盛宴*/
+.con-box01{}
+.con-box01 ul{margin-top:70px;}
+.con-box01 ul li{width:288px;height:368px;position:relative;margin-right:16px;}
+.con-box01 ul .txt,.con-box01 ul .txt01{width:288px;height:368px;top:0;left:0;padding-top:18px;}
+.con-box01 .txt b{font-size:48px;color:#fff;}
+.con-box01 .txt p{font-size:33px;color:#fff;margin-top:40px;line-height:54px;}
+.con-box01 .txt span{color:#fdfe4b;line-height:38px;}
+.con-box01 .txt span b{color:#fdfe4b;font-size:38px;}
+.con-box01 .txt span .b02{font-size:32px;}
+.con-box01 .txt strong{font-size:42px;margin-top:-4px;display: block;}
+.con-box01 .txt01 b{font-size:48px;color:#fff;}
+.con-box01 .txt01 p{font-size:33px;color:#fff;margin-top:40px;line-height:54px;}
+.con-box01 .txt01 strong{font-size:76px;}
+.con-box01 ul .ask{font-size:24px;color:#6e4300;margin-top:42px;padding-left:10px;}
+.con-box01 .txt .ask{margin-top:40px;}
+/*八大爆品*/
+.con-box02{margin-top:140px;}
+.con-box02 .w{height:1030px;}
+.con-box02 .title{margin-bottom:140px;}
+.con-box02 ul{width:460px;padding-top:20px;margin-right:280px;}
+.con-box02 ul li{width:216px;height:222px;position:relative;margin:0 24px 94px 0;}
+.con-box02 ul .txt{width:216px;height:60px;bottom:-2px;left:0;}
+.con-box02 .txt b{font-size:18px;color:#cd0100;}
+.con-box02 .txt span{font-size:12px;color:#cd0100;}
+.con-box02 .txt p{font-size:16px;color:#fff;margin-top:6px;}
+.con-box02 .img{top:280px;left:400px;}
+.con-box02 a{height:100px;bottom:86px;left:516px;color:#fff;font-size:34px;}
+/*-----------红包认购区--------------*/
+.con-box03{margin-top:110px;padding-bottom:40px;}
+.con-box03 .title{margin-bottom:28px;}
+.con-box03 .title .img{margin-top:40px;}
+.con-box03 section{margin-bottom:60px;}
+.con-box03 section ul{margin-top:48px;}
+.con-box03 ul li{width:227px;margin:0 14px 14px 0;}
+.con-box03 ul .txt{width:100%;background:#fff;border:0;border-radius:0 0 10px 10px;font-size:18px;padding-bottom:22px;}
+.con-box03 .txt p{color:#f4471e;}
+.con-box03 .txt strong{font-size:48px;}
+.con-box03 .txt a{width:150px;height:36px;line-height:34px;background:#eb6100;color:#fff;border-radius:100px;}
+/*two*/
+.con-box03 section.two li{}
+.con-box03 section.two .li04{width:474px;}
+.con-box03 .li04 .txt{background:none;bottom:90px;left:138px;}
+.con-box03 section .li05{width:592px;}
+.con-box03 .li05 .txt{width:330px;height:165px;border-radius:0 10px 10px 0;padding-top:26px;}
+/*three*/
+.con-box03 .three li{width:286px;}
+/*钜惠项目*/
+.con-box04{}
+.con-box04 ul{padding-top:64px;height:490px;}
+.con-box04 ul li{width:290px;height:370px;position:relative;margin-right:12px;}
+.con-box04 ul .li01{background:#a169fe;}
+.con-box04 ul .li02{background:#fb5178;}
+.con-box04 ul .li03{background:#6f97f8;}
+.con-box04 ul .li04{background:#ff871d;}
+.con-box04 ul .txt{width:290px;height:370px;top:0;left:0;}
+.con-box04 .txt .p01{font-size:30px;padding-top:6px;}
+.con-box04 .li01 .p01{color:#904dff;}
+.con-box04 .li02 .p01{color:#f43152;}
+.con-box04 .li03 .p01{color:#5a75f0;}
+.con-box04 .li04 .p01{color:#fe7700;letter-spacing:-6px;}
+.con-box04 .txt .p01 span{font-size:82px;}
+.con-box04 .txt .p02{color:#fdfe4b;font-size:24px;padding-top:70px;}
+.con-box04 .txt .p02 span{font-size:70px;}
+.con-box04 .txt a{width:192px;height:68px;line-height:64px;background:url("../images/box04-a-bg.png") no-repeat;font-size:24px;color:#6e4300;}
+.con-box05 .box05{width:1334px;height:354px;background:url(../images/box05-bg.jpg) no-repeat center;margin-top:60px;}
+/*------slide----------*/
+/* 本例子css */
+.box07-team .hd .prev,.box07-team .hd .next{position:absolute;top:64px;width:50px;height:50px;overflow:hidden;cursor:pointer;}
+.box07-team .hd .next{left:-32px;}
+.box07-team .hd .prev{right:-90px;}
+.box07-team .bd{padding:10px;}
+.box07-team .bd ul{overflow:hidden;zoom:1;}
+.box07-team .bd ul li{width:392px;height:150px;margin:0 8px;}
+/*team*/
+.con-box06{height:306px;padding-top:24px;}
+/*last*/
+.con-box07{padding-top:58px;}
+.con-box07 .img{width:584px;height:190px;}
+.con-box07 a{margin-top:20px;}
+/*li---hover*/
+.con-box01 li,.con-box02 li,.con-box03 li,.con-box05 li{-moz-transition: all .3s linear 0s;-webkit-transition: all .3s linear 0s;transition: all .3s linear 0s;cursor:pointer;}
+.con-box01 li:hover,.con-box02 li:hover,.con-box03 li:hover,.con-box05 li:hover{-moz-transform:translateY(-10px);-webkit-transform:translateY(-10px);transform:translateY(-10px);}

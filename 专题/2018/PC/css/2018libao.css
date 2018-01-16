@@ -1,0 +1,17 @@
+html,body,h6,div,img,table,row,cell,ul,li{margin:0;padding: 0;}
+body{background: #d80707;min-width: 1200px;max-width:100%;padding-bottom: 20px;}
+.table{display: table;}
+.row{display: table-row;}
+.cell{font-size: 0;display: table-cell;vertical-align: top;width: 235px;}
+.aimg{font-size: 0;width: 100%;height: 100%;}
+.container{width: 1200px;margin: auto;}
+.magl6{padding-left: 6px;}
+.r2{height: 20px;}
+.pad2{padding-top: 30px;}
+.cell{-moz-transition: all .3s linear 0s;-webkit-transition: all .3s linear 0s;transition: all .3s linear 0s;cursor:pointer;}
+.cell:hover{-moz-transform:translateY(-10px);-webkit-transform:translateY(-10px);transform:translateY(-10px);}
+.bigbox{background: url(../images/19.jpg)no-repeat;width: 1140px;height: 414px;margin: auto;}
+ul{padding-top: 200px;margin-left: 35px;}
+li{list-style: none;float: left;margin-left:13px;}
+li{-moz-transition: all .3s linear 0s;-webkit-transition: all .3s linear 0s;transition: all .3s linear 0s;cursor:pointer;}
+li:hover{-moz-transform:scale(1.1);-webkit-transform:scale(1.1);transform:scale(1.1);}  */

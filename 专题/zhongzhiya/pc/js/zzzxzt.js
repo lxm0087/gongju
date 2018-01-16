@@ -1,0 +1,3 @@
+document.writeln("<script type=\"text/javascript\" src=\"http://adm.szmylike.com/lv800/lv8zx.js\"></script>");
+document.writeln("<script language=\"JavaScript\" src=\"http://adm.szmylike.com/ml/tj/onadv.js\" type=\"text/JavaScript\"></script>");
+document.writeln("<script language=\"JavaScript\" src=\"http://adm.szmylike.com/ml/tj/bd_zx.js\" type=\"text/JavaScript\"></script>");

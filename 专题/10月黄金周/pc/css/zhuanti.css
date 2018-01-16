@@ -1,0 +1,22 @@
+html,body,div,ul,li,p,a,h2,img{margin: 0;padding: 0;}
+body{background: #bd0000 !important;min-width: 1200px;}
+.aimg{font-size: 0;}
+.aimg img{width: 100%;}
+#k_s_ol_floatWin_cls{width: 10px;height: 10px;}
+.container{margin: 0 auto; width: 1200px;}
+.container img{width: 100%;}
+.title-area{    border-collapse: separate;}
+.table{display: table;}
+.cell{display: table-cell;vertical-align: top;font-size: 0; box-shadow: 6px 6px 3px #a60000;}
+.cell-middle{display: table-cell;vertical-align: middle;font-size: 0;}
+.row{display: table-row}
+.pad9{padding-left: 9px;}
+.padt16{height: 16px;}
+.common img{width: 293.25px;height: 434px;}
+.common-more img{width: 232.8px;height: 388px;}
+.quan img{width: 595px;height: 202px;}
+.quan a:last-child{padding-left: 5px;}
+.zun img{width: 584px;height: 340px;font-size: 0;}
+.zun a:last-child{padding-left: 24px;}
+.expert img{width: 100%;}
+.copyright{height: 48px;!important;}

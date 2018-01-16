@@ -1,0 +1,27 @@
+html,body,div,ul,li,p,a,h2,img{margin: 0;padding: 0;}
+body{background: #bb0007 !important;min-width: 1200px;}
+.aimg{font-size: 0;}
+.aimg img{width: 100%;}
+#k_s_ol_floatWin_cls{width: 10px;height: 10px;}
+.container{margin: 0 auto; width: 1248px;}
+.container img{width: 100%;}
+.title-area{    border-collapse: separate;}
+.table{display: table;}
+.cell{display: table-cell;vertical-align: top;font-size: 0;}
+.cell-middle{display: table-cell;vertical-align: middle;font-size: 0;}
+.row{display: table-row}
+.part1{width: 100%;background: #fff;border-radius: 15px;height: 100%;}
+.title1{width: 600px;padding:52px 0;margin: auto;}
+.part1-nei{width: 1180px;margin: auto;}
+.zhuanjia1{height: 652px;}
+.pat2{padding-left: 20px;}
+.mag2{margin-top: 24px;}
+.zhuanchuang{width: 100%;}
+.area777,.area1777{width: 1200px;}
+.area777_img1{height: 458px;}
+.pat12{padding-left: 12px;}
+.patt12{padding-top: 12px;}
+.right_item{width: 500px;height: 300px;}
+
+.area1777_top_img{ height: 560px;}
+.area1777_bottom_img{height: 335px;}

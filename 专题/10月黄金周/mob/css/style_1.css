@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*案例对比、安全与服务管理、特邀专家模块css*/
+/*首页学术历程*/
+.xslc {width:1200px;margin-top:78px;}
+.xslc_focus {width:745px;height:45px;margin:0 auto 65px;border-radius: 15px;font-size: 20px;font-family: "微软雅黑";}
+.xslc_focus .txt:first-child{border-top-left-radius:15px;border-bottom-left-radius:15px;}
+.xslc_focus .txt:nth-child(2) {border-left: none;}
+.xslc_focus .txt:nth-child(3) {border-left: none;border-right: none;}
+.xslc_focus .txt:last-child{border-top-right-radius:15px;border-bottom-right-radius:15px;}
+.xslc_focus .txt {width:186px;height:43px;float:left;text-align:center;line-height:45px;color:#666;-moz-box-shadow:inset 0 0 10px rgba(22,17,23,0);-webkit-box-shadow:inset 0 0 10px rgba(22,17,23,0);box-shadow:inset 0 0 10px rgba(22,17,23,0);-moz-transition:all .3s linear 0s;-webkit-transition:all .3s linear 0s;transition:all .3s linear 0s;cursor: pointer;border:1px solid #dcd;}
+.xslc_focus .txt.active,.xslc_focus .txt:hover {background-color:#c0025a;-moz-box-shadow:inset 0 0 10px rgba(22,17,23,.17);-webkit-box-shadow:inset 0 0 10px rgba(22,17,23,.17);box-shadow:inset 0 0 10px rgba(22,17,23,.17);color: #fff;}
+.xslc .slideBox,.xslc .slideBox .slide {width:1200px;padding: 5px;}
+.xslc .slideBox .slide .info{width: 371px;height: 210px; margin:10px;float: left;}
+.xslc .slideBox .slide .info:hover{-moz-transform: translate3d(0,-2px,0);-ms-transform: translate3d(0,-2px,0);-o-transform: translate3d(0,-2px,0);-webkit-transform: translate3d(0,-2px,0);transform: translate3d(0,-2px,0);-moz-transition:all .3s linear 0s;-webkit-transition:all .3s linear 0s;transition:all .3s linear 0s;}
+.xslc .slideBox .slide .info .overlay {width:100%;height:100%;left:0;top:0; background-color:rgba(0,0,0,0);-moz-transition:all .3s linear 0s;-webkit-transition:all .3s linear 0s;transition:all .3s linear 0s;}
+.xslc .slideBox .slide .info.active .overlay{background-color:rgba(0,0,0,.5);}
+.on{background-color: #c0025a;}
+.stageContainer .ztcontents {width: 100%;height: 210px;}
+.stageContainer .ztcontents ul{width: 750px;margin: 0 auto;}
+.stageContainer .ztcontents ul li{width: 200px;height: 200px;float: left;margin:25px;}
+.stageContainer .ztcontents p {font-size:14px;text-align:center; text-transform:uppercase;cursor: pointer; }
+.stageContainer .ztcontents ul li a{display: inline-block;width: 75px;height: 115px;margin-left: 62.5px;}
+.qiujing { background:url(../images/icons.png) no-repeat -236px -19px;}
+.qiujing:hover { background-position: -236px -145px;}
+.chengxin { background:url(../images/icons.png) no-repeat -506px -19px;}
+.chengxin:hover { background-position: -506px -145px;}
+.reqing { background:url(../images/icons.png) no-repeat -765px -19px;}
+.reqing:hover { background-position: -765px -145px;}

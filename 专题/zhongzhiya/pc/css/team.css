@@ -1,0 +1,97 @@
+.cru_tit06 { background: url(../images/cru-tit06.jpg) -14px top no-repeat; width: 100px; }
+.team-part01{ width: 100%; height: 556px; text-align: center; background: url(../images/team002.jpg) center top no-repeat;}
+.team-main { width: 1000px; height: 550px; margin: 0 auto; position: relative; overflow: hidden; border-bottom: #dbdbdb 1px solid; clear: both; }
+.team-main .teamshow { width: 950px; margin-left: 50px; float: left; display: inline; }
+.team-main .list_01 li { float: left; width: 950px; height: 550px;position:relative;}
+.team-main .al { background: url(../images/dt_prev_icon.png) no-repeat 0 0; left: 0; top: 45%; position: absolute; overflow: hidden; width: 37px; height: 72px; cursor: pointer; }
+.team-main .al a { width: 50px; height: 50px; display: block; }
+.team-main .ar { background: url(../images/dt_prev_icon.png) no-repeat 0 -72px; right: 0; top: 45%; position: absolute; overflow: hidden; width: 37px; height: 72px; cursor: pointer; }
+.team-main .ar a { width: 50px; height: 50px; display: block; }
+.team-main .list_01 .info { float: left; width: 460px; color: #262526; padding-top: 60px;padding-left:20px;font-size:16px;position:relative;font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体"; }
+.team-main .list_01 .info h3{ border-left: 4px solid #806b9f; padding-left: 20px; color: #6a6a6a; font-size: 8px;font-family:tahoma, arial, simsun;  color: #7F7F7F; }
+.team-main .list_01 .info h3 span{font-size:30px;color:#393939;font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体"; }
+.team-main .list_01 .info .describe{ color: #666666; margin-top: 15px; padding-left: 20px; line-height: 36px; }
+.team-main .list_01 .info .txt{ width: 440px; color: #2a2a2a; margin-top: 15px; padding-left: 20px; line-height: 28px; }
+.team-main .list_01 .info .txt span{color:#806b9f;}
+
+.team-main .list_01 .info .click{ position: absolute; top: 80px; right: 0; width: 64px; height: 25px; }
+.team-main .list_01 .info .click a{width: 25px;height:25px; display: block;transition: background-position 0.15s;-webkit-transition: background-position 0.15s;-moz-transition: background-position 0.15s; }
+.team-main .list_01 .info .click a:hover {background-position: 0 -25px; }
+.team-main .list_01 .info .click .more{width:25px;float:left;background:url(../images/team-click-bg1.jpg) left top no-repeat;}
+.team-main .list_01 .info .click .consult{width:25px;float:right;background:url(../images/team-click-bg2.jpg) left top no-repeat;}
+
+.team-main .list_01 .big-image { position: absolute; right:0; bottom: 0; }
+.team-main .list_01 .big-image img { vertical-align: bottom; }
+
+.team-nav-box{ width: 1000px; margin: 20px auto; position: relative; overflow: hidden; height: 130px; }
+.team-nav-box .teamnav { width: 952px;margin-left: 42px;float: left; display: inline; }
+.team-nav-box .list_02{width:952px;}
+.team-nav-box .list_02 li { float: left; width: 82px; margin-right: 37px; text-align: center; }
+.team-nav-box .list_02 li span{ color:#5d5f5e;}
+.team-nav-box .list_02 li a{color: #8d8f8e;}
+.team-nav-box .list_02 li a:hover{color:#9252c0;}
+.team-nav-box .al { background: url(../images/dt_prev_icon1.png) no-repeat 0 0;left: 0; top: 30%; position: absolute; overflow: hidden; width: 12px; height: 22px; cursor: pointer; }
+.team-nav-box .al a { width: 12px; height: 22px; display: block; }
+.team-nav-box .ar { background: url(../images/dt_prev_icon1.png) no-repeat 0 -22px;right: 0; top: 30%; position: absolute; overflow: hidden; width: 12px; height: 22px; cursor: pointer; }
+.team-nav-box .ar a { width: 12px; height: 22px; display: block; }
+
+
+
+.team-slide{ width:990px; height:740px; padding-top:160px; margin:0 auto; background:url(../images/physiciant04.jpg) no-repeat center top}
+.team-slide2{ width:990px; height:740px; margin:0 auto;}
+
+
+
+
+.propageLeft{height:40px; width:40px; display:block;position:absolute; z-index:10000; left:0; top:620px; text-align:left; line-height:40px;font-family:simsun; font-size:28px; clear:both; color:#333}
+.propageRight{height:40px; width:40px; display:block;position:absolute; z-index:10000; right:0; top:620px; text-align:right; line-height:40px;font-family:simsun; font-size:28px; clear:both;color:#333}
+.propageLeft:hover,.propageRight:hover{ color:#90C; font-weight:700}
+
+.proBoxSlide{width:990px; height:740px;overflow:hidden;-moz-user-select:none; position:relative}
+.proBoxSlide .proBoxbd{width:990px; height:560px;margin:0 auto;position:relative;z-index:0;overflow:hidden; border-bottom:#dbdbdb solid 1px}
+.proBoxSlide .proBoxbd ul{width:950px !important; margin:0 auto;;}
+.proBoxSlide .proBoxbd li{width:950px !important;height:500px; padding-top:60px;overflow:hidden;}
+
+
+
+
+
+
+.proBoxSlide .proBoxbd li .info::-webkit-scrollbar {width: 14px;height: 14px;}.proBoxSlide .proBoxbd li .info::-webkit-scrollbar-track,.proBoxSlide .proBoxbd li .info::-webkit-scrollbar-thumb {border-radius: 999px;border: 5px solid transparent;}.proBoxSlide .proBoxbd li .info::-webkit-scrollbar-track {background: transparent;}.proBoxSlide .proBoxbd li .info::-webkit-scrollbar-thumb {min-height: 20px;background-clip: content-box;box-shadow: 0 0 0 5px rgba(0,0,0,.2) inset;}.proBoxSlide .proBoxbd li .info::-webkit-scrollbar-corner {background: transparent;}
+
+
+
+
+
+.proBoxSlide .proBoxbd li .info { float: left; width: 460px;height:460px; color: #262526;padding-left:20px;padding-right:10px;font-size:16px;position:relative;font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体";overflow-x:hidden;overflow-y:scroll; margin:0}
+.proBoxSlide .proBoxbd li .info::-webkit-scrollbar {width: 14px;height: 14px;}.proBoxSlide .proBoxbd li .info::-webkit-scrollbar-track,.proBoxSlide .proBoxbd li .info::-webkit-scrollbar-thumb {border-radius: 999px;border: 5px solid transparent;}.proBoxSlide .proBoxbd li .info::-webkit-scrollbar-track {background: transparent;}.proBoxSlide .proBoxbd li .info::-webkit-scrollbar-thumb {min-height: 20px;background-clip: content-box;box-shadow: 0 0 0 5px rgba(0,0,0,.2) inset;}.proBoxSlide .proBoxbd li .info::-webkit-scrollbar-corner {background: transparent;}
+.proBoxSlide .proBoxbd li .info h3{ border-left: 4px solid #c9963d; padding-left: 20px; color: #6a6a6a; font-size: 8px;font-family:tahoma, arial, simsun;  color: #7F7F7F; }
+.proBoxSlide .proBoxbd li .info h3 span{font-size:30px;color:#393939;font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体"; }
+.proBoxSlide .proBoxbd li .info .describe{ color: #666666; margin-top: 15px; padding-left: 20px; line-height: 36px; }
+.proBoxSlide .proBoxbd li .info .txt{ width: 440px; color: #2a2a2a; margin-top: 15px; padding-left: 20px; line-height: 28px; }
+.proBoxSlide .proBoxbd li .info .txt span{color:#c9963d;}
+
+.proBoxSlide .proBoxbd li .info .click{ position: absolute; top: 80px; right: 0; width: 64px; height: 25px; }
+.proBoxSlide .proBoxbd li .info .click a{width: 25px;height:25px; display: block;transition: background-position 0.15s;-webkit-transition: background-position 0.15s;-moz-transition: background-position 0.15s; }
+.proBoxSlide .proBoxbd li .info .click a:hover {background-position: 0 -25px; }
+.proBoxSlide .proBoxbd li .info .click .more{width:25px;float:left;background:url(../images/spa-click-bg1.gif) left top no-repeat;}
+.proBoxSlide .proBoxbd li .info .click .consult{width:25px;float:right;background:url(../images/spa-click-bg2.gif) left top no-repeat;}
+
+.proBoxSlide .proBoxbd li .big-image { position: absolute; right:0; bottom: 0; }
+.proBoxSlide .proBoxbd li .big-image img { vertical-align: bottom; }
+.navslist{display:block; width:20000px; height:40px;margin:0;overflow:hidden}
+.navslist{float:left;}
+
+
+.proBoxSlide .proBoxhd{width:960px; height:180px;overflow:hidden; position:relative; margin:0 auto}
+.proBoxSlide .proBoxhd ul{ height: 180px; overflow: hidden; position: absolute; z-index: 1; top: 0; width: 960px; }
+.proBoxSlide .proBoxhd ul li{ cursor: pointer; width: 120px; height: 180px; padding-top: 20px; overflow: hidden; float: left; text-align: center; font-size: 12px; color: #3c3c3c; font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", tahoma, arial, simsun, "宋体"; overflow: hidden }
+.proBoxSlide .proBoxhd ul li span{display:block;font-size:14px; color:#2a2a2a; height:30px; line-height:30px; padding-top:5px;}
+.proBoxSlide .proBoxhd ul li img{ display:block; margin:0 auto;}
+.proBoxSlide .proBoxhd ul .on{ height:158px;border-top:#c9963d solid 2px;}
+
+.proBoxSlide .proBoxpd{width:990px;height:0;position:relative;margin:0 auto;clear:both;}
+.proBoxprev,.proBoxnext{position:absolute;cursor:pointer;width:40px;height:40px;overflow:hidden;left:15px;z-index:2;top:-310px;background:url(../images/slider-arrow.png);-moz-user-select:none; display:none}
+.proBoxSlide *::selection{background:rgb(0, 0, 0);background:rgba(0, 0, 0, 0.6)}
+.proBoxSlide *::-moz-selection{background:rgb(0, 0, 0);background:rgba(0, 0, 0, 0.6)}
+.proBoxSlide .proBoxnext{left:auto;right:15px;background-position:left bottom; cursor:pointer}
